@@ -41,3 +41,5 @@ income_result.csv：最终生成文件</br>
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构</br>
 $$ Score=\sqrt{\frac{\sum_{i=1}^{N}(Y_{i}-f_{i})^{2}}{N}} $$
+
+$Score = \sqrt {\frac{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} }}{N}} $
