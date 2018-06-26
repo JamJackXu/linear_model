@@ -40,7 +40,4 @@ income_result.csv：最终生成文件</br>
 | id | 销售事件唯一编号 | 
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构</br>
-
-$$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
+It is well known that if $ax^2 + bx + c = 0$, then $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
