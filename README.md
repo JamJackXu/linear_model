@@ -42,5 +42,6 @@ income_result.csv：最终生成文件</br>
 ##### 表二 需要提交的结果house_result.csv的结构</br>
 
 $$score=\sqrt{\frac{\sum_{i=1}^{N}(Y_{i}-f_{i})^{2}}{N}}$$
+\[score=\sqrt{\frac{\sum_{i=1}^{N}(Y_{i}-f_{i})^{2}}{N}}\]
 
 <img src = "https://latex.codecogs.com/svg.latex?\Large&space;Score=\sqrt {\frac{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} }}{N}}" />
