@@ -40,9 +40,7 @@ income_result.csv：最终生成文件</br>
 | id | 销售事件唯一编号 | 
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构
-由提交的结果(house_result.csv)根据平均绝对误差(RMSE)计算成绩，评分函数为
-
-$$ Score = \sqrt {\frac{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} }}{N}} $$
+由提交的结果(house_result.csv)根据平均绝对误差(RMSE)计算成绩，评分函数为$$ Score = \sqrt {\frac{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} }}{N}} $$
 
 
 
