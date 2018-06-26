@@ -1,5 +1,5 @@
 # linear_model
-**You may see the code elsewhere. Please leave a message, if there exits any conflict of interest.**</br>
+##You may see the code elsewhere. Please leave a message, if there exits any conflict of interest.</br>
 The house prices are predicted by linear regression and the employee incomes are predicted by logistic regression.
 
 predict_house_price.py:预测房价，生成csv文件</br>
