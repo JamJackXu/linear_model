@@ -41,6 +41,6 @@ income_result.csv：最终生成文件</br>
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构</br>
 \begin{equation}
-$Score = \sqrt {{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} } \over N}} $
+$Score = \sqrt {\frac{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} }}{N}} $
 \label{eq:当前公式名}
 \end{equation}
