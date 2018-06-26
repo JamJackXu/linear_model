@@ -68,8 +68,15 @@ income_result.csv：最终生成文件</br>
 | id	| 销售事件唯一编号|
 | income_prob	| 薪资>=50K的概率|
 ##### 表四 需要提交的结果income_result.csv的结构
-由提交的结果(income_result.csv)根据对数损失函数(logloss)计算成绩，评分函数为<img src="http://latex.codecogs.com/gif.latex?score=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(f_{i})-(1-y_{i})log(1-f_{i}))" title="score=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(f_{i})-(1-y_{i})log(1-f_{i}))" />
+由提交的结果(income_result.csv)根据对数损失函数(logloss)计算成绩，评分函数为<img src="http://latex.codecogs.com/gif.latex?score=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(f_{i})-(1-y_{i})log(1-f_{i}))" title="score=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(f_{i})-(1-y_{i})log(1-f_{i}))" />其中<img src="http://latex.codecogs.com/gif.latex?N" title="N" />是预测样本数量， <img src="http://latex.codecogs.com/gif.latex?y_{i}" title="y_{i}" />为样本<img src="http://latex.codecogs.com/gif.latex?i" title="i" />的实际薪资状况(二值变量0或1)，<img src="http://latex.codecogs.com/gif.latex?f_{i}" title="f_{i}" />是你根据训练模型预测样本<img src="http://latex.codecogs.com/gif.latex?i" title="i" />薪资>=50K即为正例的概率，越低越好，越低说明预测越准确。[提示:结果不要提交0或1，这会使你的logloss非常非常大，原因见评分公式和评分代码]。提交结果示例如下。
 
+| id | income_prob | 
+| - | :-: | 
+|1	| 0.55| 
+|2	| 0.02| 
+|...	| ...|
+|N	| 0.99|
+##### 表五 需要提交的结果income_result.csv的示例
 
 
 
