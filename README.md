@@ -11,7 +11,6 @@ income_analysis.py：分析薪资数据，logloss评价模型</br>
 income_result.csv：最终生成文件</br>
 #### I、提供美国某县2014年5月到2015年5月房屋销售价格数据（文件名为house_train.csv），请根据历史销售数据训练模型并预测给定房屋(文件名为house_test.csv)的销售价格，提交预测结果(house_redult.csv)
 
-表一 数据集字段解释
 | 字段名	| 含义 |
 |id	|销售事件唯一编号|
 |date	|销售日期|
@@ -34,3 +33,6 @@ income_result.csv：最终生成文件</br>
 |Long	|地处位置的经度|
 |sqft_living15|	距离房屋最近的15个房子的起居室面积|
 |sqft_lot15	|距离房屋最近的15个房子的占地面积|
+表一 数据集字段解释
+
+
