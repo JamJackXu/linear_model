@@ -16,3 +16,25 @@ income_result.csv：最终生成文件</br>
 | Harry Potter | Gryffindor| 90 | 
 | Hermione Granger | Gryffindor | 100 | 
 | Draco Malfoy | Slytherin | 90 |
+| 字段名	| 含义 |
+|id	|销售事件唯一编号|
+|date	|销售日期|
+|price|	销售价格|
+|Bedrooms	|房间数量|
+|Bathrooms|	卫生间数量(0.5表示有一个半功能的卫生间)|
+|sqft_living|	起居室内部面积|
+|sqft_lot|	占地面积|
+|Floor	|房屋含有的层数|
+|Waterfront|	是否可以看到水面（能看到江/河/湖/海）|
+|View	|房屋整体视觉效果评分(0-4)|
+|Condition	|房屋的整体条件评分(1-5)|
+|Grade|	房屋结构以及设计评分(1-13)|
+|Sqft_above	|地面以上的居住面积|
+|sqft_basement|	地下室面积|
+|yr_build|	房屋建造时间|
+|yr_renovated|	房屋最近一次翻新的时间|
+|Zipcode|	房子所在的邮编|
+|Lat	|地处位置的纬度|
+|Long	|地处位置的经度|
+|sqft_living15|	距离房屋最近的15个房子的起居室面积|
+|sqft_lot15	|距离房屋最近的15个房子的占地面积|
