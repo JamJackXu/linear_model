@@ -41,4 +41,4 @@ income_result.csv：最终生成文件</br>
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构</br>
 由提交的结果(house_result.csv)根据平均绝对误差(RMSE)计算成绩，评分函数为<img src="http://latex.codecogs.com/gif.latex?score=\sqrt{\frac{\sum_{i=1}^{N}(y_{i}-f_{i})^{2}}{N}}" title="score=\sqrt{\frac{\sum_{i=1}^{N}(y_{i}-f_{i})^{2}}{N}}" />
-其中,是预测样本数量，<img src="http://latex.codecogs.com/gif.latex?y_{i}" title="y_{i}" />为样本*i*真实房价，<img src="http://latex.codecogs.com/gif.latex?f_{i}" title="f_{i}" />是你根据训练模型预测样本 的房价， 越低越好，越低说明预测越准确。
+其中,是预测样本数量，<img src="http://latex.codecogs.com/gif.latex?y_{i}" title="y_{i}" />为样本<img src="http://latex.codecogs.com/gif.latex?i" title="i" />真实房价，<img src="http://latex.codecogs.com/gif.latex?f_{i}" title="f_{i}" />是你根据训练模型预测样本 的房价， 越低越好，越低说明预测越准确。
