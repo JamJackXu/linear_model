@@ -40,7 +40,7 @@ income_result.csv：最终生成文件</br>
 | id | 销售事件唯一编号 | 
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构</br>
-\begin{equation}
+
 ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-\label{eq:当前公式名}
-\end{equation}
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
