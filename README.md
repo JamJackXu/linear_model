@@ -41,8 +41,5 @@ income_result.csv：最终生成文件</br>
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构
 由提交的结果(house_result.csv)根据平均绝对误差(RMSE)计算成绩，评分函数为
-
 $$ Score=\sqrt{\frac{\sum_{i=1}^{N}(Y_{i}-f_{i})^{2}}{N}} $$
-$$ J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，独立公式示例} $$
-
 其中 是预测样本数量， 为样本 真实房价， 是你根据训练模型预测样本 的房价， 越低越好，越低说明预测越准确。
