@@ -41,17 +41,7 @@ income_result.csv：最终生成文件</br>
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构
 由提交的结果(house_result.csv)根据平均绝对误差(RMSE)计算成绩，评分函数为
-% MathType!MTEF!2!1!+-
-% feaagKart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLn
-% hiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqtubsr
-% 4rNCHbWexLMBbXgBd9gzLbvyNv2CaeHbl7mZLdGeaGqj0Jf9crFfpe
-% ea0xh9v8qiW7rqqrFfpeea0xe9Lq-Jc9vqaqpepm0xbba9pwe9Q8fs
-% 0-yqaqpepae9pg0FirpepeKkFr0xfr-xfr-xb9adbaqaaeGaciGaai
-% aabeqaamaabaabauaakeaacaWGtbGaam4yaiaad+gacaWGYbGaamyz
-% aiabg2da9maakaaabaWaaSaaaeaadaaeWbqaaiaacIcacaWGzbWaaS
-% baaSqaaiaadMgaaeqaaOGaeyOeI0IaamOzamaaBaaaleaacaWGPbaa
-% beaakiaacMcadaahaaWcbeqaaiaaikdaaaaabaGaamyAaiabg2da9i
-% aaigdaaeaacaWGobaaniabggHiLdaakeaacaWGobaaaaWcbeaaaaa!54CD!
+
 $Score = \sqrt {\frac{{\sum\limits_{i = 1}^N {{{({Y_i} - {f_i})}^2}} }}{N}} $
 
 
