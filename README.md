@@ -21,6 +21,6 @@ income_result.csv：最终生成文件</br>
 | sqft_living | 起居室内部面积 | 
 | sqft_lot | 占地面积 | 
 | Floor | 房屋含有的层数 | 
-| Waterfront | 是否可以看到水面（能看到江/河/湖/海） | 
+| Waterfront | 是否可以看到水面（能看到江,河,湖,海） | 
 | View | 房屋整体视觉效果评分(0-4) | 
 | Condition | 房屋的整体条件评分(1-5) | 
