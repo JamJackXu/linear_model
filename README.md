@@ -11,7 +11,7 @@ income_analysis.py：分析薪资数据，logloss评价模型</br>
 income_result.csv：最终生成文件</br>
 #### I、提供美国某县2014年5月到2015年5月房屋销售价格数据（文件名为house_train.csv），请根据历史销售数据训练模型并预测给定房屋(文件名为house_test.csv)的销售价格，提交预测结果(house_redult.csv)
 
-| Name | meaning |
+| 字段名 | 含义 |
 | - | :-: | 
 | id | 销售事件唯一编号 | 
 | date | 销售日期 | 
@@ -62,10 +62,13 @@ income_result.csv：最终生成文件</br>
 | Hours_per_week | 每周工作时间| 
 | Native_country | 原籍| 
 | income | 收入（<=50K or >=50K）| 
-
-
-
-
+##### 表三 income数据集的字段解释
+| 字段名 | 含义 |
+| - | :-: | 
+| id	| 销售事件唯一编号|
+| income_prob	| 薪资>=50K的概率|
+##### 表四 需要提交的结果income_result.csv的结构
+由提交的结果(income_result.csv)根据对数损失函数(logloss)计算成绩，评分函数为<img src="http://latex.codecogs.com/gif.latex?score=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(f_{i})-(1-y_{i})log(1-f_{i}))" title="score=-\frac{1}{N}\sum_{i=1}^{N}(y_{i}log(f_{i})-(1-y_{i})log(1-f_{i}))" />
 
 
 
