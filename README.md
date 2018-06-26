@@ -40,6 +40,4 @@ income_result.csv：最终生成文件</br>
 | id | 销售事件唯一编号 | 
 | price | 销售价格 | 
 ##### 表二 需要提交的结果house_result.csv的结构</br>
-$$
-x_{FIS} =  (\prod_{g=1}^{6} SS_{i,g}^{C_{i,g}})^\frac{1}{\sum{C_{i,g}}}
-$$ 
+$$\frac{a}{b}$$
