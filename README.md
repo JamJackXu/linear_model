@@ -10,11 +10,7 @@ predict_employee_income.py：预测薪资，生成csc文件</br>
 income_analysis.py：分析薪资数据，logloss评价模型</br>
 income_result.csv：最终生成文件</br>
 #### I、提供美国某县2014年5月到2015年5月房屋销售价格数据（文件名为house_train.csv），请根据历史销售数据训练模型并预测给定房屋(文件名为house_test.csv)的销售价格，提交预测结果(house_redult.csv)
-| Name | Academy | score | 
-| - | :-: | -: | 
-| Harry Potter | Gryffindor| 90 | 
-| Hermione Granger | Gryffindor | 100 | 
-| Draco Malfoy | Slytherin | 90 |
+
 | 字段名 | 含义| 
 | - | :-: | -: | 
 | id | 销售事件唯一编号 | 
