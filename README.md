@@ -42,3 +42,32 @@ income_result.csv：最终生成文件</br>
 ##### 表二 需要提交的结果house_result.csv的结构</br>
 由提交的结果(house_result.csv)根据平均绝对误差(RMSE)计算成绩，评分函数为<img src="http://latex.codecogs.com/gif.latex?score=\sqrt{\frac{\sum_{i=1}^{N}(y_{i}-f_{i})^{2}}{N}}" title="score=\sqrt{\frac{\sum_{i=1}^{N}(y_{i}-f_{i})^{2}}{N}}" />
 其中,是预测样本数量，<img src="http://latex.codecogs.com/gif.latex?y_{i}" title="y_{i}" />为样本<img src="http://latex.codecogs.com/gif.latex?i" title="i" />真实房价，<img src="http://latex.codecogs.com/gif.latex?f_{i}" title="f_{i}" />是你根据训练模型预测样本 的房价， 越低越好，越低说明预测越准确。
+
+#### II、提供某地区社会成员薪资状况(文件名为income_train.csv)，根据提供的数据集进行建模，请根据训练好的模型预测给定特征人员(income_test.csv)的薪资情况并提交结果(income_result.csv)，提交结果为对应人员薪资>=50K的概率。本题假定薪资>=50K为正例1，薪资<=50K为负例0。(注：薪资分两种，分别为>=50K和<=50K，举例：假如用逻辑回归预测，提交结果即为sigmoid函数输出的概率。)
+
+| 字段名 | 含义 |
+| - | :-: | 
+| Age | 年龄| 
+| Workclass | 工作类型| 
+| Fnlwgt | 身份背景| 
+| Education | 教育程度| 
+| education_num | 受教育时间| 
+| Maritial_status | 婚姻状况| 
+| Occupation | 职业| 
+| Relationship | 关系| 
+| Race | 种族| 
+| Sex | 性别| 
+| Capital_gain | 资本收益| 
+| Capital_loss | 资本损失| 
+| Hours_per_week | 每周工作时间| 
+| Native_country | 原籍| 
+| income | 收入（<=50K or >=50K）| 
+
+
+
+
+
+
+
+
+
